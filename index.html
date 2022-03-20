@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sana Emiolechi - Photography</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <link rel="icon" href="data:;base64,=">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <template id="header-template">
+            <section class="header">
+                <h1 class="logo colorize always-active">Sana Emiolechi</h1>
+                <nav class="toolbar">
+                    <button class="story-button button colorize">Story</button>
+                    <button class="filter-button button colorize">Filter</button>
+                    <button class="gallery-button button colorize">Gallery</button>
+                    <button class="back-button button">View</button>
+                </nav>
+            </section>
+        </template>
+        <template id="content-template">
+            <section class="content"></section>
+        </template>
+        <template id="story-template">
+            <article>
+                <h2>Hello stranger friend.</h2>
+                <section class="multicolumn">
+                    <p>Let me introduce myself as {{name}}, this is one of my favorite names within the possibilities. I was born in 1986 halfway between Jaipur and Pushkar in the trunk of a Mercedes station wagon. My parents, hard on the late hippie trail at the time, met not too long before in Portugal. I was probably conceived in Essaouira, but maybe also in Imlil, my parents don't agree on that. When I was six, I was forgotten at my grandparents in Bologna. It was hot and dull so I left for Venice to become rich as a Gondolieri. I could not afford it so I visited my Aunt in the treehouse hotel. Years later, seventeen years old, I got bored and then ran off to Amsterdam. There I got lost and spent some time with the squatters at Bajesdorp. Best prison view included. I followed in my mother's footsteps on the Camden streets and stumbled through the dark tunnels of the Ligne de petite ceinture. I lived on the beach in Cabo de Gata and enjoyed my soy capucino in the backyards of Glasgow. Today I live withdrawn and deeply relaxing in the woods of Småland and enjoy life like never before. Some time ago I stole a camera in Groningen and started taking photos. Spiritualized walk in the footsteps of my creators to find my nonexistent body.</p>
+                </section>
+            </article>
+            <article>
+                <h2>The self I lost.</h2>
+                <section class="multicolumn">
+                    <a class="break" data-view="gallery" data-filter="Lost">
+                        <img data-filter="Lost" data-pick="rating" data-position="bottom">
+                    </a>
+                    <p>
+                        The colors of the world behave like those of the stones that you take out of cold clear water, disappearing slowly in front of your sadly disappointed eyes. Dried out, gray or sand. I wander through abandoned walls and scent the great wisdom of a glorious past, a unique smell. I am the prince and the princess on the back of an elephant right on the edge of the jungle where the monkeys scream in fear and exuberance. I call out to all of the warriors. Surrender, kneel down, accept your fate. Your story has been written many times. I sacrifice the mystic <a data-view="gallery" data-filter="Lost">Lost Series</a> to the gods of former times. The spirit animates the living and shapes the odd. My soul will vanish, my steps will stay. I'll live in causality till almost eternity. Slow stones, fast lives. Blink graceful for the sake of all summiteer. Slow down in woreship of your own confined age. A Persian taught me to be bored but I prefer to enjoy world and times in delightfull solitude far from any obligation. Truly seldom longed for the future.
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2>The beast I found.</h2>
+                <section class="multicolumn">
+                    <a class="break" data-view="gallery" data-filter="Meander"><img data-filter="Meander" data-pick="rating" data-position="bottom"></a>
+                    <p>
+                        On my travels I breathe the smell of the universe and eat the people's money. I immerse myself in the absence of culture. An animal spirit gave me a body. I am a proud animal on the hunt. The <a data-view="gallery" data-filter="Meander">Meander Series</a>. I am a donkey in the streets.
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2>Wise Fairy's Tale.</h2>
+                <section class="multicolumn">
+                    <a class="break" data-view="gallery" data-filter="Wayside">
+                        <img data-filter="Wayside" data-pick="rating" data-position="bottom">
+                    </a>
+                    <p>  
+                        There is only beauty. I am aware of the ugliness, but I am blind to it and see nothing at all. My eyes deserve the miracles. I hunt them. My only striving, one compulsion. I have to note, I do not see you. I see almost nothing. I see the past. It's getting darker. There is only beauty. I will not tolerate anything else. I will force it. And then I don't see my hatred anymore. <a data-view="gallery" data-filter="Wayside">Wayside Series</a>
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2>A Flatter Stack.</h3>
+                <section class="multicolumn">
+                    <a class="break" data-view="gallery" data-filter="Flatstack">
+                        <img data-filter="Flatstack" data-pick="rating" data-position="bottom">
+                    </a> 
+                    <p>
+                        Flat and graphic, various layers stacked according to importance. Heaven one up. Inspired by wonders of photographic perspective distortion. Highly spiritual moments in Rajasthan, not to be visualize with a camera in front of either of my faces experiencing the moment. Check out my <a data-view="gallery" data-filter="Flatstack">Flatstack Series</a> and the corresponding <a data-view="gallery" data-filter="Ochre">Ochre Series</a>.
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2>It's free, so you'll love it.</h2>
+                <section class="multicolumn">
+                    <p>Since I, {{name}}, have several years of experience in the backyard internet scam business, I would like to share my knowledge and give you this well-behaved image viewer for free. If you're like me, you might benefit from it. I want everybody to be able to admire great photography without having to get a fucked up Insta account. I don't feel like reading shitty comments - a static page generator fits perfectly. Since everyone wants money from me, I don't feel like paying for the hosting and let Microsoft take care of it. Visit my <a href="https://github.com/emiolechi/photography">GitHub</a> for more information. Since Git and GitHub are ment to collaborate you can even work with your buddies on the same project out of the box.</p>
+                </section>
+            </article>
+            <article>
+                <h2>Truth is not common thing.</h2>
+                <section class="multicolumn">
+                    <p>The truth is boring, if not it's a lie. We tell fairy tales. Each story can only be told once. And only at the right time. There are bonus points for every new thought that can be derived from a good story. Sincerely, the authors remain.</p>
+                </section>
+            </article>
+            <article>
+                <h2>Legal.</h2>
+                <section class="multicolumn">
+                    <p>This website is non-commercial and private use only. We give a shit about your precious data. No cookies are set and no data is collected. Since this website is published on Microsoft's GitHub Platform and uses Google Fonts, it is technically possible for these companies to track you. The source code of this website is open source and under the MIT license. Hammer.js is the only 3rd party lib that is used. All photos are published by their authors under the CC BY-NC-ND 4.0 license and can therefore be used for non-commercial purposes under attribution of the common pseudonym {{name}} as long as you do not modify them. If applicable consider placing a hyperlink to this page when using the source code or the photos. Other licensing option on request. {{name}} is embodied by Aimee Slickers and C. Nicholas Schreiber and is enlivened by the collective work of these individuals. Feel free to contact <a href="mailto:emiolechi@riseup.net">{{name}}</a> via email.</p>
+                </section>
+            </article>
+        </template>
+        <script type="module">
+            import * as Hammer from 'https://hammerjs.github.io/dist/hammer.js'
+            import {ImageGallery, load, STORY} from './index.js'
+            
+            const names = ["Sana Emiolechi", "Amin Esachiole", "Esima Elochian", "Enie Cao Laihms", "Lasahe Cemioni", "Eana Ihleomcis", "Ameolin Caihes", "Maoni Ilasehec", "Ilca Miosheena", "Melcio Naheias", "Naomie Selahci", "Ina Ecomselahi", "Ealoe Ismanich", "Inheo Liceamas", "Amioseci Henal", "Ilaim Ensaecoh", "Hanai il Osecem", "Eolicas Hianem", "Mia Chieonsela", "Amae sel Ichion", "Amal Seichione", "Amela se Ichion", "Samale Echioni", "Aomin Ichelesa", "Meichan Leioas", "Iamene Ichasol", "Ileio Hasmneca", "Emi Niseo Calha", "Meseil Icahona", "Nimea Osilecha", "Esamil Chonaie", "Naesme Iloicha", "Helec ai Mansoi", "Miniace Shaloe", "Hecim Nao Selai", "Nacaiseem Loih", "Ihoca Milanese", "Aien Cohelimas", "Ameseco Linhai", "Meshea Liocani", "Leiema Ianchos", "Meanio Eclaish", "Lashmae Icoeni", "Aniloi se Maceh", "Icheon Ileamas", "Saheen Laomici", "Seico Halemian", "Ole Samian Eich", "Esemal i Nichao", "Esme Chai Niola", "Chloe Ameniasi", "Lasah Imecieno", "Elias Homanice", "Nicolas Ahemei"]
+            
+            /* Custom extension to make the name change on Logo Click */
+            class SanasImageGallery extends ImageGallery {
+                constructor(data, opts) {
+                    super(data, opts)
+                }
+
+                randomizeName() {
+                    const name = names[Math.floor(Math.random() * names.length)]
+                    document.title = `${name} - Photography`
+                    this.logoElement.innerText = name
+                    this.templateData.name = name
+                }
+                onLogoClick() {
+                    this.randomizeName()
+                    this.invalidate(STORY) // invalidate story template cache
+                    if (this.currentState.view === STORY) {
+                        // reload story page
+                        this.show(STORY, {}, true)
+                    }
+                }
+            }    
+
+            document.addEventListener("DOMContentLoaded", async (e)=>{
+                const data = await load('generated/data.json')
+                const opts = {
+                    templateData: {name: names[0]},
+                    rootElement: document.body
+                }
+                
+                new SanasImageGallery(data, opts)
+                window.scrollTo(0,1) // Hack to hopefully make mobile address bar disappear
+            })
+        </script>
+    </body>
+</html>
